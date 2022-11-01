@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="index-style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="aside2" class="aside-2">
+        <div class="aside-tabs">
+          <!-- <div class="aside-tab-1">General</div>
+              <div class="aside-tab-2">Custom Fields</div> -->
+          <button class="aside-tab aside-tab-1">General</button>
+          <button class="aside-tab aside-tab-2" disabled>Custom Fields</button>
+          <div class="close-r">
+            <img
+              src="img/grey-close.png"
+              class="close"
+              onclick="close_aside()"
+            />
+          </div>
+        </div>
+
+        <div class="notes">
+          <div class="color-2"></div>
+          <div class="notes-title">Notes</div>
+          <textarea
+            cols="50"
+            rows="27"
+            placeholder="Start typing..."
+            class="notes-textarea"
+          ></textarea>
+          <div class="attachments">
+            <div class="attachments-text">Add attachments:</div>
+            <div class="attachment-icons">
+              <img src="img/attachment.png" class="ai" />
+
+              <img src="img/dropbox.png" class="ai" />
+
+              <img src="img/google-drive.png" class="ai" />
+            </div>
+          </div>
+          <div class="aside-btns">
+            <button class="aside-btn cancel">CANCEL</button>
+            <button class="aside-btn save" disabled>SAVE</button>
+          </div>
+        </div>
+      </div>
+      <div class="main-div1">
+        <header class="main-header">
+          <div class="sub-header">
+            <div class="profile-img">
+              <div class="pro-pic">ZB</div>
+            </div>
+            <div class="star-username">
+              <span class="fa fa-star checked star"></span>
+              <div class="username"><p>Zissy\'S Bolly'S</p></div>
+            </div>
+            <div class="pencil">
+              <div class="pencil-background">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="feature-icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L6.832 19.82a4.5 4.5 0 01-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 011.13-1.897L16.863 4.487zm0 0L19.5 7.125"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="header-article">
+            <div class="header-article-1">
+              <div class="created">Created : January 31, 2022</div>
+              <div class="owner">
+                <p>
+                  Owner : Sebin Jose
+                  <span
+                    ><img src="img/down-arrow.png" class="down-arrow"
+                  /></span>
+                </p>
+              </div>
+            </div>
+            <div class="header-article-2">
+              <div class="lead-source">
+                Lead Source : Word of mouth
+                <span><img src="img/down-arrow.png" class="down-arrow" /></span>
+              </div>
+              <div class="contact-info">
+                Not contacted
+                <span><img src="img/down-arrow.png" class="down-arrow" /></span>
+              </div>
+            </div>
+            <div class="header-article-3">
+              <div class="user-info">Phone: 0503339630</div>
+              <div class="user-info">Email:2ndlist@gmail.com</div>
+            </div>
+          </div>
+          <div class="tag-search">
+            <div class="tags">
+              <div class="tag-name">Tags:</div>
+              <div class="tag">
+                from-kesher
+                <span><img src="img/grey-close.png" class="close" /></span>
+              </div>
+              <div class="tag">
+                opop <span><img src="img/grey-close.png" class="close" /></span>
+              </div>
+              <div class="tag">
+                2222 <span><img src="img/grey-close.png" class="close" /></span>
+              </div>
+              <div class="tag">
+                jdm <span><img src="img/grey-close.png" class="close" /></span>
+              </div>
+            </div>
+            <input
+              type="text"
+              placeholder="Please ENTER after typing the tag"
+              class="search-bar"
+            />
+          </div>
+          <div class="user-description-2">
+            <div class="ud-col1">
+              <div class="about">About Zissy\'s Bolly's</div>
+              <div>No background info provided for Zissy\'s Bolly's</div>
+            </div>
+            <div class="ud-col2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="pencil"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L6.832 19.82a4.5 4.5 0 01-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 011.13-1.897L16.863 4.487zm0 0L19.5 7.125"
+                />
+              </svg>
+            </div>
+            <div class="color-1-1"></div>
+          </div>
+        </header>
+        <article>
+          <div class="article-header">
+            <div class="left-flex-item">
+              <!-- <div> -->
+              <img src="img/clock-blue.png" class="clock-icon" />
+              <!-- </div> -->
+              <div class="to-do">
+                <div class="to-do-1">To Do</div>
+                <div class="to-do-2">
+                  <img src="img/angle-small-down.png" class="angle-down" />
+                </div>
+              </div>
+            </div>
+            <div class="right-flex-item">
+              <div class="rf rf-1">
+                <img src="img/whatsapp.png" class="rf-icons" />
+                <div>WhatsApp</div>
+              </div>
+              <div class="rf rf-2">
+                <img src="img/meet-black.png" class="rf-icons" />
+                <div>Add Meeting</div>
+              </div>
+              <div class="rf rf-3">
+                <img src="img/telephone.png" class="rf-icons" />
+                <div>Add Call</div>
+              </div>
+              <div class="rf rf-4">
+                <img src="img/to-do-list.png" class="rf-icons" />
+                <div>Add Task</div>
+              </div>
+              <div class="rf rf-5">
+                <img src="img/mail.png" class="rf-icons" />
+                <div>Send Mail</div>
+              </div>
+              <div class="rf rf-6">
+                <img src="img/blue-refresh.png" class="rf-icons refresh" />
+                <div>Refresh</div>
+              </div>
+            </div>
+          </div>
+          <div class="article-content">
+            <div class="content-1">
+              <div class="1-sub-1">
+                <img src="img/meet-red.png" class="meet-red" />
+              </div>
+              <div class="1-sub-2">No comment provided</div>
+            </div>
+            <div class="content-2">21/07/2022 09:00</div>
+            <div class="content-3">
+              <div class="3-sub-1">
+                <img src="img/clock-red.png" class="clock-red" />
+              </div>
+              <div class="3-sub-2">Late</div>
+            </div>
+            <div class="content-4">
+              <img src="img/red-option.png" class="red-option" />
+            </div>
+          </div>
+          <button id="more-info" class="btn-more-info" onclick="moreinfo()">
+            More Info
+          </button>
+        </article>
+      </div>
+      <aside>
+        <div class="aside-tabs">
+          <!-- <div class="aside-tab-1">General</div>
+            <div class="aside-tab-2">Custom Fields</div> -->
+          <button class="aside-tab aside-tab-1">General</button>
+          <button class="aside-tab aside-tab-2" disabled>Custom Fields</button>
+        </div>
+        <div class="user-description">
+          <div class="ud-col1">
+            <div class="about">About Zissy\'s Bolly's</div>
+            <div>No background info provided for Zissy\'s Bolly's</div>
+          </div>
+          <div class="color-1"></div>
+          <div class="ud-col2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="pencil"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L6.832 19.82a4.5 4.5 0 01-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 011.13-1.897L16.863 4.487zm0 0L19.5 7.125"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="notes">
+          <div class="color-2"></div>
+          <div class="notes-title">Notes</div>
+          <textarea
+            cols="50"
+            rows="27"
+            placeholder="Start typing..."
+            class="notes-textarea"
+          ></textarea>
+          <div class="attachments">
+            <div class="attachments-text">Add attachments:</div>
+            <div class="attachment-icons">
+              <img src="img/attachment.png" class="ai" />
+
+              <img src="img/dropbox.png" class="ai" />
+
+              <img src="img/google-drive.png" class="ai" />
+            </div>
+          </div>
+          <div class="aside-btns">
+            <button class="aside-btn cancel">CANCEL</button>
+            <button class="aside-btn save" disabled>SAVE</button>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </body>
+
+  <script>
+    function moreinfo() {
+      a = document.getElementById("aside2");
+      a.classList.add("aside2-show");
+      b = document.getElementById("more-info");
+      b.classList.add("more-info-hide");
+    }
+
+    function close_aside() {
+      c = document.getElementById("aside2");
+      c.classList.remove("aside2-show");
+      d = document.getElementById("more-info");
+      d.classList.remove("more-info-hide");
+    }
+  </script>
+</html>
