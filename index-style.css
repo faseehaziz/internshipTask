@@ -256,6 +256,7 @@ article {
 
 .rf {
   display: flex;
+  cursor: pointer;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -337,6 +338,7 @@ aside {
 
 .aside-tab {
   display: flex;
+  cursor: pointer;
   align-items: center;
   justify-content: center;
   border: solid 0.5px rgba(202, 202, 202, 0.637);
@@ -395,6 +397,7 @@ aside {
 }
 
 .pencil {
+  cursor: pointer;
   width: 20px;
 }
 
@@ -457,6 +460,7 @@ aside {
 }
 
 .ai {
+  cursor: pointer;
   width: 17px;
   height: 17px;
 }
@@ -471,6 +475,7 @@ aside {
 }
 
 .aside-btn {
+  cursor: pointer;
   background-color: white;
   border: none;
 }
